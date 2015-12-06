@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="owdXFx" name="Alerts, Tests and FontAwesome" projectType="guiapp"
+              version="1.0.0" bundleIdentifier="net.credland.juce-alerts" includeBinaryInAppConfig="1"
+              jucerVersion="3.2.0">
+  <MAINGROUP id="itcd0Y" name="Alerts, Tests and FontAwesome">
+    <GROUP id="{5A22758D-4C1A-FF48-223B-D710B66B2424}" name="Source">
+      <FILE id="Qtkyq2" name="ErrorGenerator.cpp" compile="1" resource="0"
+            file="Source/ErrorGenerator.cpp"/>
+      <FILE id="MSBe4e" name="ErrorGenerator.h" compile="0" resource="0"
+            file="Source/ErrorGenerator.h"/>
+      <FILE id="uDeQ0B" name="ErrorGenerator_Tests.cpp" compile="1" resource="0"
+            file="Source/ErrorGenerator_Tests.cpp"/>
+      <FILE id="qrCJaC" name="FontAwesome.cpp" compile="1" resource="0" file="Source/FontAwesome.cpp"/>
+      <FILE id="lkP9d8" name="FontAwesome.h" compile="0" resource="0" file="Source/FontAwesome.h"/>
+      <FILE id="YKcLpU" name="BootstrapAlerts.cpp" compile="1" resource="0"
+            file="Source/BootstrapAlerts.cpp"/>
+      <FILE id="hrYrse" name="BootstrapAlerts.h" compile="0" resource="0"
+            file="Source/BootstrapAlerts.h"/>
+      <FILE id="ULl8Tv" name="BootstrapAlerts_Tests.cpp" compile="1" resource="0"
+            file="Source/BootstrapAlerts_Tests.cpp"/>
+      <FILE id="hmUoAj" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="NaMjBf" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="jOTihW" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="exgtS7" name="UiUnitTests.h" compile="0" resource="0" file="Source/UiUnitTests.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="Alerts"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="Alerts"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../juce/modules"/>
+        <MODULEPATH id="juce_video" path="../juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../juce/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
