@@ -48,6 +48,7 @@ public:
 	static void drawIcon(Graphics & g, int iconCode, Rectangle<float> area)
 	{
 		g.setFont(Font(getTypeface()));
+		g.setFont(area.getHeight());
 		g.drawText(String::charToString(iconCode), area, Justification::centred, false); 
 	}
 
